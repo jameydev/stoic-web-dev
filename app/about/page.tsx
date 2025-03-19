@@ -1,12 +1,8 @@
 // app/about/page.tsx
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 
 export default function AboutPage() {
   return (
     <div className='min-h-screen flex flex-col'>
-      <Header />
-
       <main className='flex-grow'>
         {/* About Section */}
         <section className='py-12 px-4'>
@@ -37,8 +33,6 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
-
-      <Footer />
     </div>
   );
 }

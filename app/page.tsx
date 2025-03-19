@@ -1,19 +1,11 @@
 // app/page.tsx
-import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import Footer from '@/components/Footer';
 
 export default function HomePage() {
   return (
     <div className='min-h-screen flex flex-col'>
-      {/* Header */}
-      <Header />
-
-      {/* Main content */}
       <main className='flex-grow'>
         <Hero />
-
-        {/* Additional content section */}
         <section id='learn-more' className='py-12 px-4'>
           <div className='max-w-4xl mx-auto text-center'>
             <h2 className='text-3xl font-bold mb-4'>
@@ -37,9 +29,6 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }

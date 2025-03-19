@@ -1,34 +1,57 @@
-// app/about/page.tsx
-
 export default function AboutPage() {
   return (
     <div className='min-h-screen flex flex-col'>
       <main className='flex-grow'>
         {/* About Section */}
-        <section className='py-12 px-4'>
+        <section className='py-12 px-4 md:px-8 lg:px-12'>
           <div className='max-w-4xl mx-auto'>
             <h1 className='text-4xl md:text-5xl font-bold text-center mb-6'>
               About Us
             </h1>
-            <article className='prose prose-lg mx-auto text-gray-700'>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat.
+            <article className='prose prose-lg mx-auto text-gray-700 leading-relaxed'>
+              <p className='text-lg md:text-xl text-gray-700 mb-4 md:mb-6 leading-relaxed'>
+                So how does one become a Stoic Web Developer? Well, it all
+                starts with a commitment to building better websites and web
+                applications. But it doesn't end there. Stoic Web Development
+                cultivates a mindset of resilience, self-discipline, and
+                gratitude.
               </p>
-              <p>
-                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
-                Nunc ut sem vitae risus tristique posuere. In sit amet convallis
-                urna. Quisque dictum, risus sit amet consequat venenatis, ex
-                ante dignissim tellus, non efficitur libero ante in elit.
+              <p className='text-lg md:text-xl text-gray-700 mb-4 md:mb-6 leading-relaxed'>
+                The Stoic Web Developer is someone who embraces the things that
+                are within their control (their code quality), and lets go of
+                the things that are not (their supervisor). They are someone who
+                understands that the only way to build great software is to
+                continuously improve their skills and knowledge.
               </p>
-              <p>
-                Praesent sed elementum mauris. Nam ultrices, urna ut suscipit
-                condimentum, arcu nibh aliquet magna, sit amet sollicitudin
-                mauris libero vel velit. Curabitur ac aliquam libero. Sed quis
-                sapien nec massa volutpat tincidunt.
+              <p className='text-lg md:text-xl text-gray-700 mb-4 md:mb-6 leading-relaxed'>
+                All that being said, here are the core principles of Stoic Web
+                Development:
               </p>
+              <ul className='text-lg md:text-xl text-gray-700 m-4 md:m-6 list-disc'>
+                <li className='mb-2 md:mb-4'>
+                  Build fast, secure, and reliable websites and web applications
+                </li>
+                <li className='mb-2 md:mb-4'>
+                  Embrace the things that are within your control
+                </li>
+                <li className='mb-2 md:mb-4'>
+                  Let go of the things that are not in your control
+                </li>
+                <li className='mb-2 md:mb-4'>
+                  Continuously improve your skills and knowledge
+                </li>
+                <li className='mb-2 md:mb-4'>
+                  Cultivate a mindset of resilience, self-discipline, and
+                  gratitude
+                </li>
+                <li className='mb-2 md:mb-4'>Help others improve too!</li>
+                <li className='mb-2 md:mb-4'>Think outside the box</li>
+                <li className='mb-2 md:mb-4'>Use agile methodology</li>
+                <li className='mb-2 md:mb-4'>Use version control</li>
+                <li className='mb-2 md:mb-4'>Write clean code</li>
+                <li className='mb-2 md:mb-4'>Stay organized</li>
+                <li className='mb-2 md:mb-4'>Remain calm and rational</li>
+              </ul>
             </article>
           </div>
         </section>

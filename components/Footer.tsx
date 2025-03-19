@@ -9,12 +9,12 @@ export default function Footer() {
         <nav aria-label='Footer Navigation'>
           <ul className='flex justify-center space-x-4'>
             <li>
-              <a href='/privacy' className='hover:text-white'>
+              <a href='#' className='hover:text-white'>
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href='/terms' className='hover:text-white'>
+              <a href='#' className='hover:text-white'>
                 Terms of Service
               </a>
             </li>

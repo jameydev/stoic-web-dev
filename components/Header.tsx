@@ -1,4 +1,5 @@
-// components/Header.tsx
+'use client';
+
 import Link from 'next/link';
 
 export default function Header() {
@@ -14,19 +15,28 @@ export default function Header() {
         </Link>
 
         {/* Navigation Links */}
-        <ul className='flex space-x-4'>
+        <ul className='flex space-x-2 md:space-x-4'>
           <li>
-            <Link href='/' className='text-gray-600 hover:text-gray-900'>
+            <Link
+              href='/'
+              className='block px-2 py-1 md:px-4 md:py-2 text-gray-600 hover:text-gray-900'
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link href='/about' className='text-gray-600 hover:text-gray-900'>
+            <Link
+              href='/about'
+              className='block px-2 py-1 md:px-4 md:py-2 text-gray-600 hover:text-gray-900'
+            >
               About
             </Link>
           </li>
           <li>
-            <Link href='/contact' className='text-gray-600 hover:text-gray-900'>
+            <Link
+              href='/contact'
+              className='block px-2 py-1 md:px-4 md:py-2 text-gray-600 hover:text-gray-900'
+            >
               Contact
             </Link>
           </li>

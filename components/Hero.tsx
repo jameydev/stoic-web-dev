@@ -10,7 +10,8 @@ export default function Hero() {
           Stoic Web Developers
         </h1>
         <p className='text-lg md:text-2xl mb-8'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Building websites and web applications with resilience,
+          self-discipline, and gratitude
         </p>
         <a
           href='#learn-more'

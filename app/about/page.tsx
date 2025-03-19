@@ -8,26 +8,26 @@ export default function AboutPage() {
             <h1 className='text-4xl md:text-5xl font-bold text-center mb-6'>
               About Us
             </h1>
-            <article className='prose prose-lg mx-auto text-gray-700 leading-relaxed'>
-              <p className='text-lg md:text-xl text-gray-700 mb-4 md:mb-6 leading-relaxed'>
+            <article className='prose prose-lg mx-auto text-gray-300 leading-relaxed'>
+              <p className='text-lg md:text-xl text-gray-300 mb-4 md:mb-6 leading-relaxed'>
                 So how does one become a Stoic Web Developer? Well, it all
                 starts with a commitment to building better websites and web
                 applications. But it doesn't end there. Stoic Web Development
                 cultivates a mindset of resilience, self-discipline, and
                 gratitude.
               </p>
-              <p className='text-lg md:text-xl text-gray-700 mb-4 md:mb-6 leading-relaxed'>
+              <p className='text-lg md:text-xl text-gray-300 mb-4 md:mb-6 leading-relaxed'>
                 The Stoic Web Developer is someone who embraces the things that
                 are within their control (their code quality), and lets go of
                 the things that are not (their supervisor). They are someone who
                 understands that the only way to build great software is to
                 continuously improve their skills and knowledge.
               </p>
-              <p className='text-lg md:text-xl text-gray-700 mb-4 md:mb-6 leading-relaxed'>
+              <p className='text-lg md:text-xl text-gray-300 mb-4 md:mb-6 leading-relaxed'>
                 All that being said, here are the core principles of Stoic Web
                 Development:
               </p>
-              <ul className='text-lg md:text-xl text-gray-700 m-4 md:m-6 list-disc'>
+              <ul className='text-lg md:text-xl text-gray-300 m-4 md:m-6 list-disc'>
                 <li className='mb-2 md:mb-4'>
                   Build fast, secure, and reliable websites and web applications
                 </li>

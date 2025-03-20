@@ -29,7 +29,8 @@ export default function AboutPage() {
               </p>
               <ul className='text-lg md:text-xl text-gray-300 m-4 md:m-6 list-disc'>
                 <li className='mb-2 md:mb-4'>
-                  Build fast, secure, and reliable websites and web applications
+                  Build fast, secure, and reliable websites and applications
+                  (what we call Virtuous Software)
                 </li>
                 <li className='mb-2 md:mb-4'>
                   Embrace the things that are within your control
@@ -39,6 +40,12 @@ export default function AboutPage() {
                 </li>
                 <li className='mb-2 md:mb-4'>
                   Continuously improve your skills and knowledge
+                </li>
+                <li className='mb-2 md:mb-4'>
+                  In all interactions with your code and other developers and
+                  team members, practice the virtues of wisdom, courage,
+                  justice, and temperance. Additionally, take care to
+                  communicate clearly and effectively.
                 </li>
                 <li className='mb-2 md:mb-4'>
                   Cultivate a mindset of resilience, self-discipline, and
